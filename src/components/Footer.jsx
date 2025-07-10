@@ -37,7 +37,7 @@ const Footer = () => {
             </div>
 
             <div>
-              <p className="text-white"><strong>Phone:</strong>+91 9998887770</p>
+              <p className="text-white"><strong>Phone:</strong>+91 6284448162</p>
               <p><strong>Email:</strong>timelypay@gmail.com</p>
               <p><strong>Mon-Fri:</strong> 9am-5pm</p>
             </div>
