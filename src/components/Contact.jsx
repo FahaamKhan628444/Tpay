@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import toast, { Toaster } from 'react-hot-toast';
 
 export default function ContactUs() {
   const [formData, setFormData] = useState({
@@ -21,6 +22,7 @@ export default function ContactUs() {
     e.preventDefault();
     // Simulate a successful form submission
     setSuccessMessage('We received your query. Our team will contact you in 2-3 working days.');
+    toast.success('We received your Query! Our Team will contact you in 2-3 working days.');
     // Clear the form
     setFormData({
       name: '',
@@ -102,6 +104,7 @@ export default function ContactUs() {
         {successMessage && (
           <div className="mt-4 text-green-600 text-center">
             {successMessage}
+
           </div>
         )}
       </div>
