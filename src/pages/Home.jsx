@@ -50,7 +50,7 @@ export default function Home() {
       />
       <div className="mt-16"> {/* Push below fixed navbar */}
   <Marquee speed={50} gradient={false} className="bg-blue-100 py-2 text-sm">
-    TimelyPay does not charge any <span className="text-red">Fees</span> except our subscriptions.  We are just a Payment Reminder Software Company.
+    TimelyPay does not charge any Fees except our subscriptions.  We are just a Payment Reminder Software Company.
   </Marquee>
 </div>
       {/* Hero Section */}
